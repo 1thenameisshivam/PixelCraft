@@ -1,10 +1,5 @@
-import Home from "./Pages/Home";
 function App() {
-  return (
-    <div className="w-screen h-[70vh] overflow-hidden bg-black">
-      <Home />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
