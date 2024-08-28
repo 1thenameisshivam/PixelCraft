@@ -4,13 +4,14 @@ import { Canvas } from "@react-three/fiber";
 import Sean from "@/components/Custom/Sean";
 import ScrollingText from "@/components/Custom/ScrollingTex";
 import { Link } from "react-router-dom";
+import Logo from "@/components/Custom/Logo";
 
 const Landing = () => {
   return (
     <div className="h-[70vh]">
-      <h1 className=" absolute z-50 top-3 left-4 text-red-600 font-mono text-2xl font-bold">
-        PI.<span className="text-white">craft</span>
-      </h1>
+      <div className=" absolute z-50 top-3 left-4">
+        <Logo />
+      </div>
       <Canvas camera={{ fov: 35 }}>
         <OrbitControls enableZoom={false} />
         <ambientLight />
