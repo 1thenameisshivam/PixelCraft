@@ -17,6 +17,7 @@
     "@react-three/drei": "^9.111.3",
     "@react-three/fiber": "^8.17.6",
     "@types/three": "^0.167.2",
+    "browser-image-compression": "^2.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "react": "^18.3.1",
